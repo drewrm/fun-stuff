@@ -1,4 +1,6 @@
 $! Make cobol, not war
+$ DELETE TEST.EXE;*
+$ DELETE TEST.OBJ;*
 $ COBOL TEST.COB
 $ LINK TEST.OBJ 
 $ RUN TEST.EXE
